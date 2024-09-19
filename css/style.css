@@ -1,0 +1,53 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-color: #7fffd4;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+}
+
+nav {
+    border: 1px solid black;
+    width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover {
+    color: blue;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+footer {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: #7fffd4;
+    justify-content: center;
+    font-weight: bold;
+}
